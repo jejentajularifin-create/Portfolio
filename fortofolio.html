@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/fortofolio/portfolio.css">
+    <title>Portfolio - Jejen Tajul Arifin</title> 
+</head>
+<body class="bg-gradient-to-b from-sky-50 to-blue-100 text-slate-800 font-sans antialiased min-h-screen flex flex-col justify-between">
+
+    <header class="flex justify-between items-center p-6 bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50">
+        <h1 class="text-xl font-bold tracking-tight text-blue-900">Portfolio</h1>
+        <nav aria-label="Main Navigation">
+            <ul class="flex gap-6 font-medium">
+                <li><a href="#about-me" class="hover:text-blue-600 transition-colors">About Me</a></li>
+                <li><a href="#projects" class="hover:text-blue-600 transition-colors">Projects</a></li>
+                <li><a href="#experience" class="hover:text-blue-600 transition-colors">Experience</a></li>
+                <li><a href="#education" class="hover:text-blue-600 transition-colors">Education</a></li>
+                <li><a href="#contact" class="hover:text-blue-600 transition-colors">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-6 py-12 flex-1 w-full space-y-16">
+        <section id="about-me" class="relative">
+    <div class="oriental-cloud absolute -top-10 -left-16 z-0 hidden md:block"></div>
+    
+    <div class="bg-white/90 backdrop-blur-sm p-8 rounded-2xl shadow-sm border border-sky-100 relative z-10">
+        <h2 class="text-2xl font-bold text-blue-900 mb-3">About Me</h2>
+        <p class="leading-relaxed text-slate-700">Saya adalah mahasiswa Universitas Mayasari Bakti, Fakultas Teknik, Program Studi Teknik Informatika semester tiga yang sedang berkembang menjadi Fullstack Developer.</p>
+    </div>
+</section>
+
+        <section id="projects" class="bg-white p-6 rounded-2xl shadow-sm border border-sky-100">
+    <h2 class="text-2xl font-bold text-blue-900 mb-3">Featured Projects</h2>
+    <p class="text-slate-600">Project-project yang pernah saya buat.</p>
+
+    <div class="bg-slate-50 rounded-xl p-6 flex flex-col justify-between min-h-[200px] border border-slate-100">
+    <div>
+        <h3 class="text-lg font-bold text-blue-900">Project Pertama Saya</h3>
+        <p class="text-sm text-slate-600 mt-1">Situs portofolio responsif dengan tema langit oriental.</p>
+    </div>
+    <div class="mt-4 flex items-center gap-2">
+        <button id="like-btn" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+            ❤️ Like
+        </button>
+        <span id="like-count" class="text-sm text-slate-600 font-bold">0 Likes</span>
+    </div>
+</div>
+        <div class="bg-slate-50 rounded-xl p-6 flex flex-col justify-between min-h-[200px] border border-slate-100">
+    <div>
+        <h3 class="text-lg font-bold text-blue-900">Project Kedua saya</h3>
+        <p class="text-sm text-slate-600 mt-1">Aplikasi Pengelola Jadwal Olahraga&Belajar Saya Berbasis Web</p>
+    </div>
+    <div class="mt-4 flex items-center gap-2">
+        <button id="like-btn" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+            ❤️ Like
+        </button>
+        <span id="like-count" class="text-sm text-slate-600 font-bold">0 Likes</span>
+    </div>
+</div>
+    </div>
+</section>
+
+        <section id="experience" class="bg-white p-6 rounded-2xl shadow-sm border border-sky-100">
+            <h2 class="text-2xl font-bold text-blue-900 mb-3">Experience</h2>
+            <p class="text-slate-600">Saya pernah bekerja sebagai joki game.</p>
+        </section>
+
+        <section id="education" class="bg-white p-6 rounded-2xl shadow-sm border border-sky-100">
+            <h2 class="text-2xl font-bold text-blue-900 mb-3">Education</h2>
+            <p class="text-slate-600">Lulusan SMAN 8 Tasikmalaya.</p>
+        </section>
+
+        <section id="contact" class="bg-white p-6 rounded-2xl shadow-sm border border-sky-100">
+            <h2 class="text-2xl font-bold text-blue-900 mb-3">Get In Touch</h2>
+            <p class="text-slate-600">Hubungi saya untuk kolaborasi proyek skala global.</p>
+        </section>
+    </main>
+
+    <footer class="border-t border-slate-200/60 bg-white/50 py-6 text-center text-sm text-slate-500">
+        <p>&copy; 2026 @jetafin. All rights reserved.</p>
+    </footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
